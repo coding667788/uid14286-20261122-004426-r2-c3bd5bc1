@@ -1,0 +1,1144 @@
+{
+  "case_id": "scale_50_15",
+  "categories": [
+    {
+      "id": "PUB",
+      "parent": null
+    },
+    {
+      "id": "CLS",
+      "parent": "PUB"
+    },
+    {
+      "id": "SEC",
+      "parent": "CLS"
+    },
+    {
+      "id": "TOP",
+      "parent": "SEC"
+    },
+    {
+      "id": "COMMS",
+      "parent": null
+    },
+    {
+      "id": "CRYPTO",
+      "parent": "COMMS"
+    }
+  ],
+  "qual_events": [
+    {
+      "qual_id": "Q001",
+      "version": 1,
+      "person": "person00",
+      "department": "OPS",
+      "categories": [
+        "TOP"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q002",
+      "version": 1,
+      "person": "person00",
+      "department": "OPS",
+      "categories": [
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q003",
+      "version": 1,
+      "person": "person01",
+      "department": "OPS",
+      "categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q004",
+      "version": 1,
+      "person": "person02",
+      "department": "OPS",
+      "categories": [
+        "SEC"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q005",
+      "version": 1,
+      "person": "person03",
+      "department": "OPS",
+      "categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q006",
+      "version": 1,
+      "person": "person04",
+      "department": "OPS",
+      "categories": [
+        "TOP"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q007",
+      "version": 1,
+      "person": "person05",
+      "department": "OPS",
+      "categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q008",
+      "version": 1,
+      "person": "person05",
+      "department": "OPS",
+      "categories": [
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q009",
+      "version": 1,
+      "person": "person06",
+      "department": "OPS",
+      "categories": [
+        "SEC"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q010",
+      "version": 1,
+      "person": "person07",
+      "department": "OPS",
+      "categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q011",
+      "version": 1,
+      "person": "person08",
+      "department": "OPS",
+      "categories": [
+        "TOP"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q012",
+      "version": 1,
+      "person": "person09",
+      "department": "OPS",
+      "categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q013",
+      "version": 1,
+      "person": "person10",
+      "department": "OPS",
+      "categories": [
+        "SEC"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q014",
+      "version": 1,
+      "person": "person10",
+      "department": "OPS",
+      "categories": [
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q015",
+      "version": 1,
+      "person": "person11",
+      "department": "OPS",
+      "categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q016",
+      "version": 1,
+      "person": "person12",
+      "department": "OPS",
+      "categories": [
+        "TOP"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q017",
+      "version": 1,
+      "person": "person13",
+      "department": "OPS",
+      "categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q018",
+      "version": 1,
+      "person": "person14",
+      "department": "OPS",
+      "categories": [
+        "SEC"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q019",
+      "version": 1,
+      "person": "person15",
+      "department": "OPS",
+      "categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q020",
+      "version": 1,
+      "person": "person15",
+      "department": "OPS",
+      "categories": [
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q021",
+      "version": 1,
+      "person": "person16",
+      "department": "OPS",
+      "categories": [
+        "TOP"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q022",
+      "version": 1,
+      "person": "person17",
+      "department": "OPS",
+      "categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q023",
+      "version": 1,
+      "person": "person18",
+      "department": "OPS",
+      "categories": [
+        "SEC"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q024",
+      "version": 1,
+      "person": "person19",
+      "department": "OPS",
+      "categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q025",
+      "version": 1,
+      "person": "person20",
+      "department": "AUDIT",
+      "categories": [
+        "TOP"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q026",
+      "version": 1,
+      "person": "person20",
+      "department": "AUDIT",
+      "categories": [
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q027",
+      "version": 1,
+      "person": "person21",
+      "department": "AUDIT",
+      "categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q028",
+      "version": 1,
+      "person": "person22",
+      "department": "AUDIT",
+      "categories": [
+        "SEC"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q029",
+      "version": 1,
+      "person": "person23",
+      "department": "AUDIT",
+      "categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q030",
+      "version": 1,
+      "person": "person24",
+      "department": "AUDIT",
+      "categories": [
+        "TOP"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q031",
+      "version": 1,
+      "person": "person25",
+      "department": "AUDIT",
+      "categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q032",
+      "version": 1,
+      "person": "person25",
+      "department": "AUDIT",
+      "categories": [
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q033",
+      "version": 1,
+      "person": "person26",
+      "department": "AUDIT",
+      "categories": [
+        "SEC"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q034",
+      "version": 1,
+      "person": "person27",
+      "department": "AUDIT",
+      "categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q035",
+      "version": 1,
+      "person": "person28",
+      "department": "AUDIT",
+      "categories": [
+        "TOP"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q036",
+      "version": 1,
+      "person": "person29",
+      "department": "AUDIT",
+      "categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q037",
+      "version": 1,
+      "person": "person30",
+      "department": "AUDIT",
+      "categories": [
+        "SEC"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q038",
+      "version": 1,
+      "person": "person30",
+      "department": "AUDIT",
+      "categories": [
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q039",
+      "version": 1,
+      "person": "person31",
+      "department": "AUDIT",
+      "categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q040",
+      "version": 1,
+      "person": "person32",
+      "department": "AUDIT",
+      "categories": [
+        "TOP"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q041",
+      "version": 1,
+      "person": "person33",
+      "department": "AUDIT",
+      "categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q042",
+      "version": 1,
+      "person": "person34",
+      "department": "AUDIT",
+      "categories": [
+        "SEC"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q043",
+      "version": 1,
+      "person": "person35",
+      "department": "AUDIT",
+      "categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q044",
+      "version": 1,
+      "person": "person35",
+      "department": "AUDIT",
+      "categories": [
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q045",
+      "version": 1,
+      "person": "person36",
+      "department": "AUDIT",
+      "categories": [
+        "TOP"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q046",
+      "version": 1,
+      "person": "person37",
+      "department": "AUDIT",
+      "categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q047",
+      "version": 1,
+      "person": "person38",
+      "department": "AUDIT",
+      "categories": [
+        "SEC"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q048",
+      "version": 1,
+      "person": "person39",
+      "department": "AUDIT",
+      "categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q049",
+      "version": 1,
+      "person": "person40",
+      "department": "WIT",
+      "categories": [
+        "TOP"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q050",
+      "version": 1,
+      "person": "person40",
+      "department": "WIT",
+      "categories": [
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q051",
+      "version": 1,
+      "person": "person41",
+      "department": "WIT",
+      "categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q052",
+      "version": 1,
+      "person": "person42",
+      "department": "WIT",
+      "categories": [
+        "SEC"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q053",
+      "version": 1,
+      "person": "person43",
+      "department": "WIT",
+      "categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q054",
+      "version": 1,
+      "person": "person44",
+      "department": "WIT",
+      "categories": [
+        "TOP"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q055",
+      "version": 1,
+      "person": "person45",
+      "department": "WIT",
+      "categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q056",
+      "version": 1,
+      "person": "person45",
+      "department": "WIT",
+      "categories": [
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q057",
+      "version": 1,
+      "person": "person46",
+      "department": "WIT",
+      "categories": [
+        "SEC"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q058",
+      "version": 1,
+      "person": "person47",
+      "department": "WIT",
+      "categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q059",
+      "version": 1,
+      "person": "person48",
+      "department": "WIT",
+      "categories": [
+        "TOP"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q060",
+      "version": 1,
+      "person": "person49",
+      "department": "WIT",
+      "categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 200,
+      "replaces": null,
+      "entered_at": 1
+    }
+  ],
+  "appointments": [],
+  "cooling_rules": [],
+  "positions": [
+    {
+      "position_id": "POS00",
+      "required_categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "seats": [
+        {
+          "seat_id": "S1",
+          "department": "OPS"
+        },
+        {
+          "seat_id": "S2",
+          "department": "AUDIT"
+        }
+      ],
+      "min_span": 1,
+      "handover": null
+    },
+    {
+      "position_id": "POS01",
+      "required_categories": [
+        "SEC"
+      ],
+      "seats": [
+        {
+          "seat_id": "S1",
+          "department": "OPS"
+        },
+        {
+          "seat_id": "S2",
+          "department": "AUDIT"
+        }
+      ],
+      "min_span": 1,
+      "handover": null
+    },
+    {
+      "position_id": "POS02",
+      "required_categories": [
+        "SEC"
+      ],
+      "seats": [
+        {
+          "seat_id": "S1",
+          "department": "OPS"
+        },
+        {
+          "seat_id": "S2",
+          "department": "AUDIT"
+        }
+      ],
+      "min_span": 1,
+      "handover": null
+    },
+    {
+      "position_id": "POS03",
+      "required_categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "seats": [
+        {
+          "seat_id": "S1",
+          "department": "OPS"
+        },
+        {
+          "seat_id": "S2",
+          "department": "AUDIT"
+        }
+      ],
+      "min_span": 1,
+      "handover": null
+    },
+    {
+      "position_id": "POS04",
+      "required_categories": [
+        "SEC"
+      ],
+      "seats": [
+        {
+          "seat_id": "S1",
+          "department": "OPS"
+        },
+        {
+          "seat_id": "S2",
+          "department": "AUDIT"
+        }
+      ],
+      "min_span": 1,
+      "handover": null
+    },
+    {
+      "position_id": "POS05",
+      "required_categories": [
+        "SEC"
+      ],
+      "seats": [
+        {
+          "seat_id": "S1",
+          "department": "OPS"
+        },
+        {
+          "seat_id": "S2",
+          "department": "AUDIT"
+        }
+      ],
+      "min_span": 1,
+      "handover": null
+    },
+    {
+      "position_id": "POS06",
+      "required_categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "seats": [
+        {
+          "seat_id": "S1",
+          "department": "OPS"
+        },
+        {
+          "seat_id": "S2",
+          "department": "AUDIT"
+        }
+      ],
+      "min_span": 1,
+      "handover": null
+    },
+    {
+      "position_id": "POS07",
+      "required_categories": [
+        "SEC"
+      ],
+      "seats": [
+        {
+          "seat_id": "S1",
+          "department": "OPS"
+        },
+        {
+          "seat_id": "S2",
+          "department": "AUDIT"
+        }
+      ],
+      "min_span": 1,
+      "handover": null
+    },
+    {
+      "position_id": "POS08",
+      "required_categories": [
+        "SEC"
+      ],
+      "seats": [
+        {
+          "seat_id": "S1",
+          "department": "OPS"
+        },
+        {
+          "seat_id": "S2",
+          "department": "AUDIT"
+        }
+      ],
+      "min_span": 1,
+      "handover": null
+    },
+    {
+      "position_id": "POS09",
+      "required_categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "seats": [
+        {
+          "seat_id": "S1",
+          "department": "OPS"
+        },
+        {
+          "seat_id": "S2",
+          "department": "AUDIT"
+        }
+      ],
+      "min_span": 1,
+      "handover": null
+    },
+    {
+      "position_id": "POS10",
+      "required_categories": [
+        "SEC"
+      ],
+      "seats": [
+        {
+          "seat_id": "S1",
+          "department": "OPS"
+        },
+        {
+          "seat_id": "S2",
+          "department": "AUDIT"
+        }
+      ],
+      "min_span": 1,
+      "handover": null
+    },
+    {
+      "position_id": "POS11",
+      "required_categories": [
+        "SEC"
+      ],
+      "seats": [
+        {
+          "seat_id": "S1",
+          "department": "OPS"
+        },
+        {
+          "seat_id": "S2",
+          "department": "AUDIT"
+        }
+      ],
+      "min_span": 1,
+      "handover": null
+    },
+    {
+      "position_id": "POS12",
+      "required_categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "seats": [
+        {
+          "seat_id": "S1",
+          "department": "OPS"
+        },
+        {
+          "seat_id": "S2",
+          "department": "AUDIT"
+        }
+      ],
+      "min_span": 1,
+      "handover": null
+    },
+    {
+      "position_id": "POS13",
+      "required_categories": [
+        "SEC"
+      ],
+      "seats": [
+        {
+          "seat_id": "S1",
+          "department": "OPS"
+        },
+        {
+          "seat_id": "S2",
+          "department": "AUDIT"
+        }
+      ],
+      "min_span": 1,
+      "handover": null
+    },
+    {
+      "position_id": "POS14",
+      "required_categories": [
+        "SEC"
+      ],
+      "seats": [
+        {
+          "seat_id": "S1",
+          "department": "OPS"
+        },
+        {
+          "seat_id": "S2",
+          "department": "AUDIT"
+        }
+      ],
+      "min_span": 1,
+      "handover": null
+    }
+  ],
+  "service_combos": [
+    {
+      "combo_id": "SC1",
+      "positions": [
+        "POS00",
+        "POS01",
+        "POS02",
+        "POS03",
+        "POS04",
+        "POS05",
+        "POS06",
+        "POS07",
+        "POS08",
+        "POS09",
+        "POS10",
+        "POS11",
+        "POS12",
+        "POS13",
+        "POS14"
+      ],
+      "from_time": 0,
+      "to_time": 200
+    }
+  ],
+  "query": {
+    "cutoff": 200,
+    "from_time": 0,
+    "to_time": 200
+  }
+}

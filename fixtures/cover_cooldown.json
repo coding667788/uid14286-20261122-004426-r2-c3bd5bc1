@@ -1,0 +1,127 @@
+{
+  "case_id": "cover_cooldown",
+  "categories": [
+    {
+      "id": "PUB",
+      "parent": null
+    },
+    {
+      "id": "CLS",
+      "parent": "PUB"
+    },
+    {
+      "id": "SEC",
+      "parent": "CLS"
+    },
+    {
+      "id": "TOP",
+      "parent": "SEC"
+    },
+    {
+      "id": "COMMS",
+      "parent": null
+    },
+    {
+      "id": "CRYPTO",
+      "parent": "COMMS"
+    }
+  ],
+  "qual_events": [
+    {
+      "qual_id": "K1",
+      "version": 1,
+      "person": "heidi",
+      "department": "OPS",
+      "categories": [
+        "SEC"
+      ],
+      "grant": 0,
+      "terminate": 120,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "K2",
+      "version": 1,
+      "person": "henry",
+      "department": "AUDIT",
+      "categories": [
+        "SEC"
+      ],
+      "grant": 0,
+      "terminate": 120,
+      "replaces": null,
+      "entered_at": 1
+    }
+  ],
+  "appointments": [
+    {
+      "appointment_id": "AP-1",
+      "person": "heidi",
+      "position": "CTRL",
+      "from_time": 0,
+      "to_time": 40
+    }
+  ],
+  "cooling_rules": [
+    {
+      "rule_id": "CR-1",
+      "controlled_position": "CTRL",
+      "barred_position": "GUARD",
+      "cooldown": 30
+    }
+  ],
+  "positions": [
+    {
+      "position_id": "CTRL",
+      "required_categories": [
+        "SEC"
+      ],
+      "seats": [
+        {
+          "seat_id": "G1",
+          "department": "OPS"
+        },
+        {
+          "seat_id": "G2",
+          "department": "AUDIT"
+        }
+      ],
+      "min_span": 1,
+      "handover": null
+    },
+    {
+      "position_id": "GUARD",
+      "required_categories": [
+        "SEC"
+      ],
+      "seats": [
+        {
+          "seat_id": "G1",
+          "department": "OPS"
+        },
+        {
+          "seat_id": "G2",
+          "department": "AUDIT"
+        }
+      ],
+      "min_span": 1,
+      "handover": null
+    }
+  ],
+  "service_combos": [
+    {
+      "combo_id": "C1",
+      "positions": [
+        "GUARD"
+      ],
+      "from_time": 20,
+      "to_time": 90
+    }
+  ],
+  "query": {
+    "cutoff": 120,
+    "from_time": 20,
+    "to_time": 90
+  }
+}

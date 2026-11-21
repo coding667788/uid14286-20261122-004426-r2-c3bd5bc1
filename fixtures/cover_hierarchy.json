@@ -1,0 +1,133 @@
+{
+  "case_id": "cover_hierarchy",
+  "categories": [
+    {
+      "id": "PUB",
+      "parent": null
+    },
+    {
+      "id": "CLS",
+      "parent": "PUB"
+    },
+    {
+      "id": "SEC",
+      "parent": "CLS"
+    },
+    {
+      "id": "TOP",
+      "parent": "SEC"
+    },
+    {
+      "id": "COMMS",
+      "parent": null
+    },
+    {
+      "id": "CRYPTO",
+      "parent": "COMMS"
+    }
+  ],
+  "qual_events": [
+    {
+      "qual_id": "H1",
+      "version": 1,
+      "person": "top_holder",
+      "department": "OPS",
+      "categories": [
+        "TOP"
+      ],
+      "grant": 0,
+      "terminate": 50,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "H2",
+      "version": 1,
+      "person": "sec_holder",
+      "department": "OPS",
+      "categories": [
+        "SEC"
+      ],
+      "grant": 0,
+      "terminate": 50,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "H3",
+      "version": 1,
+      "person": "pub_holder",
+      "department": "AUDIT",
+      "categories": [
+        "PUB"
+      ],
+      "grant": 0,
+      "terminate": 50,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "H4",
+      "version": 1,
+      "person": "cls_holder",
+      "department": "AUDIT",
+      "categories": [
+        "CLS"
+      ],
+      "grant": 0,
+      "terminate": 50,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "H5",
+      "version": 1,
+      "person": "top_auditor",
+      "department": "AUDIT",
+      "categories": [
+        "TOP"
+      ],
+      "grant": 0,
+      "terminate": 50,
+      "replaces": null,
+      "entered_at": 1
+    }
+  ],
+  "appointments": [],
+  "cooling_rules": [],
+  "positions": [
+    {
+      "position_id": "P-SEC",
+      "required_categories": [
+        "SEC"
+      ],
+      "seats": [
+        {
+          "seat_id": "S1",
+          "department": "OPS"
+        },
+        {
+          "seat_id": "S2",
+          "department": "AUDIT"
+        }
+      ],
+      "min_span": 1,
+      "handover": null
+    }
+  ],
+  "service_combos": [
+    {
+      "combo_id": "C1",
+      "positions": [
+        "P-SEC"
+      ],
+      "from_time": 0,
+      "to_time": 50
+    }
+  ],
+  "query": {
+    "cutoff": 50,
+    "from_time": 0,
+    "to_time": 50
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "case_id": "cover_contention",
+  "categories": [
+    {
+      "id": "PUB",
+      "parent": null
+    },
+    {
+      "id": "CLS",
+      "parent": "PUB"
+    },
+    {
+      "id": "SEC",
+      "parent": "CLS"
+    },
+    {
+      "id": "TOP",
+      "parent": "SEC"
+    },
+    {
+      "id": "COMMS",
+      "parent": null
+    },
+    {
+      "id": "CRYPTO",
+      "parent": "COMMS"
+    }
+  ],
+  "qual_events": [
+    {
+      "qual_id": "C1",
+      "version": 1,
+      "person": "alice",
+      "department": "OPS",
+      "categories": [
+        "TOP"
+      ],
+      "grant": 0,
+      "terminate": 60,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "C2",
+      "version": 1,
+      "person": "carol",
+      "department": "OPS",
+      "categories": [
+        "TOP"
+      ],
+      "grant": 0,
+      "terminate": 30,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "C3",
+      "version": 1,
+      "person": "ben",
+      "department": "AUDIT",
+      "categories": [
+        "TOP"
+      ],
+      "grant": 0,
+      "terminate": 60,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "C4",
+      "version": 1,
+      "person": "dan",
+      "department": "AUDIT",
+      "categories": [
+        "TOP"
+      ],
+      "grant": 0,
+      "terminate": 60,
+      "replaces": null,
+      "entered_at": 1
+    }
+  ],
+  "appointments": [],
+  "cooling_rules": [],
+  "positions": [
+    {
+      "position_id": "PA",
+      "required_categories": [
+        "TOP"
+      ],
+      "seats": [
+        {
+          "seat_id": "A1",
+          "department": "OPS"
+        },
+        {
+          "seat_id": "A2",
+          "department": "AUDIT"
+        }
+      ],
+      "min_span": 1,
+      "handover": null
+    },
+    {
+      "position_id": "PB",
+      "required_categories": [
+        "TOP"
+      ],
+      "seats": [
+        {
+          "seat_id": "B1",
+          "department": "OPS"
+        },
+        {
+          "seat_id": "B2",
+          "department": "AUDIT"
+        }
+      ],
+      "min_span": 1,
+      "handover": null
+    }
+  ],
+  "service_combos": [
+    {
+      "combo_id": "C1",
+      "positions": [
+        "PA",
+        "PB"
+      ],
+      "from_time": 0,
+      "to_time": 30
+    },
+    {
+      "combo_id": "C2",
+      "positions": [
+        "PA",
+        "PB"
+      ],
+      "from_time": 30,
+      "to_time": 60
+    }
+  ],
+  "query": {
+    "cutoff": 60,
+    "from_time": 0,
+    "to_time": 60
+  }
+}

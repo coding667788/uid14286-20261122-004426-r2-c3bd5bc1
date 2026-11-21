@@ -1,0 +1,125 @@
+{
+  "case_id": "schedule_min_span",
+  "categories": [
+    {
+      "id": "PUB",
+      "parent": null
+    },
+    {
+      "id": "CLS",
+      "parent": "PUB"
+    },
+    {
+      "id": "SEC",
+      "parent": "CLS"
+    },
+    {
+      "id": "TOP",
+      "parent": "SEC"
+    },
+    {
+      "id": "COMMS",
+      "parent": null
+    },
+    {
+      "id": "CRYPTO",
+      "parent": "COMMS"
+    }
+  ],
+  "qual_events": [
+    {
+      "qual_id": "A1",
+      "version": 1,
+      "person": "alice",
+      "department": "OPS",
+      "categories": [
+        "SEC"
+      ],
+      "grant": 0,
+      "terminate": 30,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "B1",
+      "version": 1,
+      "person": "bob",
+      "department": "OPS",
+      "categories": [
+        "SEC"
+      ],
+      "grant": 30,
+      "terminate": 90,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "D1",
+      "version": 1,
+      "person": "dan",
+      "department": "AUDIT",
+      "categories": [
+        "SEC"
+      ],
+      "grant": 0,
+      "terminate": 90,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "W1",
+      "version": 1,
+      "person": "wally",
+      "department": "WIT",
+      "categories": [
+        "CLS"
+      ],
+      "grant": 0,
+      "terminate": 90,
+      "replaces": null,
+      "entered_at": 1
+    }
+  ],
+  "appointments": [],
+  "cooling_rules": [],
+  "positions": [
+    {
+      "position_id": "GUARD",
+      "required_categories": [
+        "SEC"
+      ],
+      "seats": [
+        {
+          "seat_id": "S1",
+          "department": "OPS"
+        },
+        {
+          "seat_id": "S2",
+          "department": "AUDIT"
+        }
+      ],
+      "min_span": 2,
+      "handover": {
+        "department": "WIT",
+        "categories": [
+          "CLS"
+        ]
+      }
+    }
+  ],
+  "service_combos": [
+    {
+      "combo_id": "C1",
+      "positions": [
+        "GUARD"
+      ],
+      "from_time": 0,
+      "to_time": 90
+    }
+  ],
+  "query": {
+    "cutoff": 90,
+    "from_time": 0,
+    "to_time": 90
+  }
+}

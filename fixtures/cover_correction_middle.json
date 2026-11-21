@@ -1,0 +1,111 @@
+{
+  "case_id": "cover_correction_middle",
+  "categories": [
+    {
+      "id": "PUB",
+      "parent": null
+    },
+    {
+      "id": "CLS",
+      "parent": "PUB"
+    },
+    {
+      "id": "SEC",
+      "parent": "CLS"
+    },
+    {
+      "id": "TOP",
+      "parent": "SEC"
+    },
+    {
+      "id": "COMMS",
+      "parent": null
+    },
+    {
+      "id": "CRYPTO",
+      "parent": "COMMS"
+    }
+  ],
+  "qual_events": [
+    {
+      "qual_id": "M1",
+      "version": 1,
+      "person": "alice",
+      "department": "OPS",
+      "categories": [
+        "TOP"
+      ],
+      "grant": 0,
+      "terminate": 90,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "M2",
+      "version": 1,
+      "person": "bob",
+      "department": "AUDIT",
+      "categories": [
+        "TOP"
+      ],
+      "grant": 0,
+      "terminate": 90,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "M1",
+      "version": 2,
+      "person": "alice",
+      "department": "OPS",
+      "categories": [
+        "PUB"
+      ],
+      "grant": 0,
+      "terminate": 90,
+      "replaces": 1,
+      "entered_at": 80,
+      "effective_from": 30,
+      "effective_to": 60
+    }
+  ],
+  "appointments": [],
+  "cooling_rules": [],
+  "positions": [
+    {
+      "position_id": "VAULT",
+      "required_categories": [
+        "TOP"
+      ],
+      "seats": [
+        {
+          "seat_id": "G1",
+          "department": "OPS"
+        },
+        {
+          "seat_id": "G2",
+          "department": "AUDIT"
+        }
+      ],
+      "min_span": 1,
+      "handover": null
+    }
+  ],
+  "service_combos": [
+    {
+      "combo_id": "C1",
+      "positions": [
+        "VAULT"
+      ],
+      "from_time": 0,
+      "to_time": 90
+    }
+  ],
+  "query": {
+    "cutoff": 100,
+    "old_cutoff": 50,
+    "new_cutoff": 100,
+    "from_time": 0,
+    "to_time": 90
+  }
+}

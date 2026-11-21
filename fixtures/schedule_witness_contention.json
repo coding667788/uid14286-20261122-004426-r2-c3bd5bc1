@@ -1,0 +1,188 @@
+{
+  "case_id": "schedule_witness_contention",
+  "categories": [
+    {
+      "id": "PUB",
+      "parent": null
+    },
+    {
+      "id": "CLS",
+      "parent": "PUB"
+    },
+    {
+      "id": "SEC",
+      "parent": "CLS"
+    },
+    {
+      "id": "TOP",
+      "parent": "SEC"
+    },
+    {
+      "id": "COMMS",
+      "parent": null
+    },
+    {
+      "id": "CRYPTO",
+      "parent": "COMMS"
+    }
+  ],
+  "qual_events": [
+    {
+      "qual_id": "PA1",
+      "version": 1,
+      "person": "alice",
+      "department": "OPS",
+      "categories": [
+        "SEC"
+      ],
+      "grant": 0,
+      "terminate": 20,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "PA2",
+      "version": 1,
+      "person": "bob",
+      "department": "OPS",
+      "categories": [
+        "SEC"
+      ],
+      "grant": 20,
+      "terminate": 80,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "PB1",
+      "version": 1,
+      "person": "carol",
+      "department": "OPS",
+      "categories": [
+        "SEC"
+      ],
+      "grant": 0,
+      "terminate": 20,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "PB2",
+      "version": 1,
+      "person": "erin",
+      "department": "OPS",
+      "categories": [
+        "SEC"
+      ],
+      "grant": 20,
+      "terminate": 80,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "AU1",
+      "version": 1,
+      "person": "dan",
+      "department": "AUDIT",
+      "categories": [
+        "SEC"
+      ],
+      "grant": 0,
+      "terminate": 80,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "AU2",
+      "version": 1,
+      "person": "dee",
+      "department": "AUDIT",
+      "categories": [
+        "SEC"
+      ],
+      "grant": 0,
+      "terminate": 80,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "W1",
+      "version": 1,
+      "person": "wally",
+      "department": "WIT",
+      "categories": [
+        "CLS"
+      ],
+      "grant": 0,
+      "terminate": 80,
+      "replaces": null,
+      "entered_at": 1
+    }
+  ],
+  "appointments": [],
+  "cooling_rules": [],
+  "positions": [
+    {
+      "position_id": "PA",
+      "required_categories": [
+        "SEC"
+      ],
+      "seats": [
+        {
+          "seat_id": "S1",
+          "department": "OPS"
+        },
+        {
+          "seat_id": "S2",
+          "department": "AUDIT"
+        }
+      ],
+      "min_span": 1,
+      "handover": {
+        "department": "WIT",
+        "categories": [
+          "CLS"
+        ]
+      }
+    },
+    {
+      "position_id": "PB",
+      "required_categories": [
+        "SEC"
+      ],
+      "seats": [
+        {
+          "seat_id": "S1",
+          "department": "OPS"
+        },
+        {
+          "seat_id": "S2",
+          "department": "AUDIT"
+        }
+      ],
+      "min_span": 1,
+      "handover": {
+        "department": "WIT",
+        "categories": [
+          "CLS"
+        ]
+      }
+    }
+  ],
+  "service_combos": [
+    {
+      "combo_id": "C1",
+      "positions": [
+        "PA",
+        "PB"
+      ],
+      "from_time": 0,
+      "to_time": 80
+    }
+  ],
+  "query": {
+    "cutoff": 80,
+    "from_time": 0,
+    "to_time": 80
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "case_id": "schedule_partial_recall",
+  "categories": [
+    {
+      "id": "PUB",
+      "parent": null
+    },
+    {
+      "id": "CLS",
+      "parent": "PUB"
+    },
+    {
+      "id": "SEC",
+      "parent": "CLS"
+    },
+    {
+      "id": "TOP",
+      "parent": "SEC"
+    },
+    {
+      "id": "COMMS",
+      "parent": null
+    },
+    {
+      "id": "CRYPTO",
+      "parent": "COMMS"
+    }
+  ],
+  "qual_events": [
+    {
+      "qual_id": "F1",
+      "version": 1,
+      "person": "frank",
+      "department": "OPS",
+      "categories": [
+        "CLS"
+      ],
+      "grant": 0,
+      "terminate": 80,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "F2",
+      "version": 1,
+      "person": "frank",
+      "department": "OPS",
+      "categories": [
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 30,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "G1",
+      "version": 1,
+      "person": "gina",
+      "department": "OPS",
+      "categories": [
+        "CLS"
+      ],
+      "grant": 0,
+      "terminate": 80,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "AU1",
+      "version": 1,
+      "person": "dan",
+      "department": "AUDIT",
+      "categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 80,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "W1",
+      "version": 1,
+      "person": "wally",
+      "department": "WIT",
+      "categories": [
+        "CLS"
+      ],
+      "grant": 0,
+      "terminate": 80,
+      "replaces": null,
+      "entered_at": 1
+    }
+  ],
+  "appointments": [],
+  "cooling_rules": [],
+  "positions": [
+    {
+      "position_id": "RADIO",
+      "required_categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "seats": [
+        {
+          "seat_id": "S1",
+          "department": "OPS"
+        },
+        {
+          "seat_id": "S2",
+          "department": "AUDIT"
+        }
+      ],
+      "min_span": 1,
+      "handover": {
+        "department": "WIT",
+        "categories": [
+          "CLS"
+        ]
+      }
+    }
+  ],
+  "service_combos": [
+    {
+      "combo_id": "C1",
+      "positions": [
+        "RADIO"
+      ],
+      "from_time": 0,
+      "to_time": 80
+    }
+  ],
+  "query": {
+    "cutoff": 80,
+    "from_time": 0,
+    "to_time": 80
+  }
+}

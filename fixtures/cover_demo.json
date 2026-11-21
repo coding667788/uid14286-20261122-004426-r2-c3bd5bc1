@@ -1,0 +1,291 @@
+{
+  "case_id": "cover_demo",
+  "categories": [
+    {
+      "id": "PUB",
+      "parent": null
+    },
+    {
+      "id": "CLS",
+      "parent": "PUB"
+    },
+    {
+      "id": "SEC",
+      "parent": "CLS"
+    },
+    {
+      "id": "TOP",
+      "parent": "SEC"
+    },
+    {
+      "id": "COMMS",
+      "parent": null
+    },
+    {
+      "id": "CRYPTO",
+      "parent": "COMMS"
+    }
+  ],
+  "qual_events": [
+    {
+      "qual_id": "Q-ALPHA",
+      "version": 1,
+      "person": "alice",
+      "department": "OPS",
+      "categories": [
+        "TOP"
+      ],
+      "grant": 0,
+      "terminate": 100,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q-BRAVO",
+      "version": 1,
+      "person": "bob",
+      "department": "OPS",
+      "categories": [
+        "SEC"
+      ],
+      "grant": 0,
+      "terminate": 100,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q-CAROL",
+      "version": 1,
+      "person": "carol",
+      "department": "AUDIT",
+      "categories": [
+        "SEC"
+      ],
+      "grant": 0,
+      "terminate": 100,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q-DAVE",
+      "version": 1,
+      "person": "dave",
+      "department": "AUDIT",
+      "categories": [
+        "CLS"
+      ],
+      "grant": 0,
+      "terminate": 100,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q-ERIN",
+      "version": 1,
+      "person": "erin",
+      "department": "OPS",
+      "categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 100,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q-ALPHA",
+      "version": 2,
+      "person": "alice",
+      "department": "OPS",
+      "categories": [
+        "CLS"
+      ],
+      "grant": 0,
+      "terminate": 100,
+      "replaces": 1,
+      "entered_at": 5,
+      "effective_from": 40,
+      "effective_to": 60
+    },
+    {
+      "qual_id": "Q-FRANK-1",
+      "version": 1,
+      "person": "frank",
+      "department": "OPS",
+      "categories": [
+        "CLS"
+      ],
+      "grant": 0,
+      "terminate": 100,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q-FRANK-2",
+      "version": 1,
+      "person": "frank",
+      "department": "OPS",
+      "categories": [
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 100,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q-HEIDI",
+      "version": 1,
+      "person": "heidi",
+      "department": "OPS",
+      "categories": [
+        "SEC"
+      ],
+      "grant": 0,
+      "terminate": 100,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q-IVAN",
+      "version": 1,
+      "person": "ivan",
+      "department": "AUDIT",
+      "categories": [
+        "TOP"
+      ],
+      "grant": 0,
+      "terminate": 100,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q-JUDY-1",
+      "version": 1,
+      "person": "judy",
+      "department": "WIT",
+      "categories": [
+        "CLS"
+      ],
+      "grant": 0,
+      "terminate": 100,
+      "replaces": null,
+      "entered_at": 1
+    },
+    {
+      "qual_id": "Q-JUDY-2",
+      "version": 1,
+      "person": "judy",
+      "department": "WIT",
+      "categories": [
+        "COMMS"
+      ],
+      "grant": 0,
+      "terminate": 100,
+      "replaces": null,
+      "entered_at": 1
+    }
+  ],
+  "appointments": [
+    {
+      "appointment_id": "AP-1",
+      "person": "heidi",
+      "position": "VAULT",
+      "from_time": 10,
+      "to_time": 40
+    }
+  ],
+  "cooling_rules": [
+    {
+      "rule_id": "CR-1",
+      "controlled_position": "VAULT",
+      "barred_position": "GUARD",
+      "cooldown": 30
+    }
+  ],
+  "positions": [
+    {
+      "position_id": "GUARD",
+      "required_categories": [
+        "SEC"
+      ],
+      "seats": [
+        {
+          "seat_id": "G1",
+          "department": "OPS"
+        },
+        {
+          "seat_id": "G2",
+          "department": "AUDIT"
+        }
+      ],
+      "min_span": 1,
+      "handover": {
+        "department": "WIT",
+        "categories": [
+          "CLS"
+        ]
+      }
+    },
+    {
+      "position_id": "VAULT",
+      "required_categories": [
+        "TOP"
+      ],
+      "seats": [
+        {
+          "seat_id": "G1",
+          "department": "OPS"
+        },
+        {
+          "seat_id": "G2",
+          "department": "AUDIT"
+        }
+      ],
+      "min_span": 1,
+      "handover": {
+        "department": "WIT",
+        "categories": [
+          "CLS"
+        ]
+      }
+    },
+    {
+      "position_id": "RADIO",
+      "required_categories": [
+        "CLS",
+        "COMMS"
+      ],
+      "seats": [
+        {
+          "seat_id": "R1",
+          "department": "OPS"
+        },
+        {
+          "seat_id": "R2",
+          "department": "WIT"
+        }
+      ],
+      "min_span": 1,
+      "handover": null
+    }
+  ],
+  "service_combos": [
+    {
+      "combo_id": "SC-ALL",
+      "positions": [
+        "GUARD",
+        "VAULT",
+        "RADIO"
+      ],
+      "from_time": 0,
+      "to_time": 100
+    }
+  ],
+  "query": {
+    "cutoff": 100,
+    "from_time": 0,
+    "to_time": 100
+  }
+}
